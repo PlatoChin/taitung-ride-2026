@@ -61,3 +61,14 @@ h2:not(.day h2)::before{content:"🧸 "}
 .day{position:relative}
 .dayicon{position:absolute;right:0;top:-26px;width:78px;height:auto;pointer-events:none}
 @media (max-width:520px){.mascot{width:68px}.dayicon{width:60px;top:-22px}}
+
+/* ===== 更多可愛圖片 ===== */
+.wrap h2.h-fun::before,.wrap h2.h-money::before,.wrap h2.h-tip::before,.wrap h2.h-check::before{content:"";display:inline-block;width:1.6em;height:1.6em;vertical-align:-.45em;margin-right:6px;background:center/contain no-repeat}
+.wrap h2.h-fun::before{background-image:url(images/deco/ic-fun.svg)}
+.wrap h2.h-money::before{background-image:url(images/deco/ic-money.svg)}
+.wrap h2.h-tip::before{background-image:url(images/deco/ic-tip.svg)}
+.wrap h2.h-check::before{background-image:url(images/deco/ic-check.svg)}
+.thumb.illus{object-fit:contain;background:#fff7ef}
+.fig.illus img{object-fit:contain;max-height:320px;background:#fff7ef}
+.divider{display:block;width:100%;max-width:520px;height:auto;margin:22px auto 0;opacity:.95}
+.bye{text-align:center;margin:28px 0 0}.bye img{width:min(240px,70%);height:auto}.bye p{margin:.2em 0;color:var(--accent);font-weight:700}
