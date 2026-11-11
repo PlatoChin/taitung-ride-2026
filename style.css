@@ -1,0 +1,57 @@
+:root{--bg:#f6f3ee;--card:#fff;--ink:#222;--sub:#666;--accent:#0b6e6e;--line:#e3ddd2}
+@media (prefers-color-scheme:dark){:root{--bg:#161a1a;--card:#1f2525;--ink:#eee;--sub:#aaa;--accent:#5cc7c7;--line:#333}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,"Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+.wrap{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{margin:.2em 0 .1em}h2{margin:1.6em 0 .4em;color:var(--accent)}
+.sub{color:var(--sub)}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
+.day{border-left:4px solid var(--accent);padding-left:12px;margin-top:28px}
+.spot{display:flex;justify-content:space-between;gap:12px;align-items:center;text-decoration:none;color:inherit}
+.spot b{font-size:1.05em}.spot span{color:var(--sub);font-size:.9em}
+.back{display:inline-block;margin-bottom:8px}
+ul{padding-left:1.2em}
+.btn{display:inline-block;margin-top:8px;padding:8px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none}
+.note{font-size:.92em;color:var(--sub)}
+.thumb{width:96px;height:72px;object-fit:cover;border-radius:8px;flex:none}
+.spot .txt{flex:1}
+.fig{margin:12px 0}.fig img{width:100%;max-height:420px;object-fit:cover;border-radius:12px;display:block}.fig figcaption{font-size:.8em;color:var(--sub);margin-top:4px}
+
+/* ===== 美化:可愛風 ===== */
+:root{--sky1:#cfeefb;--sky2:#fff6e6;--pink:#ff8fab;--cardline:#ffd9c2;--deco-op:1}
+@media (prefers-color-scheme:dark){:root{--sky1:#1b2a35;--sky2:#161a1a;--pink:#ff8fab;--cardline:#3a3330;--deco-op:.12}}
+body{background:linear-gradient(180deg,var(--sky1) 0,var(--sky2) 520px,var(--bg) 100%) fixed;position:relative;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;background:url(images/deco/bg-tile.svg) repeat;opacity:var(--deco-op);z-index:-2;pointer-events:none}
+body::after{content:"";position:fixed;left:0;right:0;bottom:0;height:110px;background:url(images/deco/hills.svg) bottom/100% 100% no-repeat;opacity:calc(var(--deco-op)*.8);z-index:-1;pointer-events:none}
+.wrap{padding-bottom:140px}
+.hero{text-align:center;padding:8px 0 4px}
+.hero img{width:min(340px,80%);height:auto;animation:bob 3s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-6px)}}
+@media (prefers-reduced-motion:reduce){.hero img{animation:none}}
+h1{text-align:center;font-size:1.7em;letter-spacing:.04em}
+h1+.sub{text-align:center}
+.card{border:2px solid var(--cardline);border-radius:18px;box-shadow:0 3px 0 rgba(255,143,171,.18);transition:transform .15s,box-shadow .15s}
+a.spot:hover{transform:translateY(-3px) rotate(-.3deg);box-shadow:0 8px 16px rgba(0,0,0,.12)}
+.thumb{border-radius:14px;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.day{border-left:0;padding-left:0}
+.day h2{background:var(--accent);color:#fff;display:inline-block;padding:6px 16px;border-radius:999px;font-size:1.05em;margin-top:0}
+.day h2::before{content:"🏍️ "}
+.spot .txt b::before{content:"📍";margin-right:4px}
+h2:not(.day h2)::before{content:"🧸 "}
+.btn{border-radius:999px}
+.fig img{border:4px solid #fff;box-shadow:0 4px 12px rgba(0,0,0,.15)}
+
+/* ===== 天氣預報 ===== */
+.wx{display:flex;align-items:center;gap:6px;flex:none;background:#eaf6ff;border-radius:14px;padding:4px 10px 4px 4px}
+.wx img{width:44px;height:44px}
+.wx div{display:flex;flex-direction:column;line-height:1.3;font-size:.85em}
+.wx b{color:#1b5e8a}.wx span{color:#456;font-size:.95em}
+.wx.wet{background:#dbeaff}
+.wxsum{margin:2px 0 8px;font-size:.9em;color:var(--accent)}
+@media (prefers-color-scheme:dark){.wx{background:#22333f}.wx.wet{background:#1f3350}.wx b{color:#8fd0ff}.wx span{color:#bcd}}
+@media (max-width:520px){.spot{flex-wrap:wrap}.wx{margin-left:108px}}
+.wxbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin:8px 0 4px;font-size:.88em;color:var(--sub)}
+.wxbar button{border:0;border-radius:999px;background:var(--accent);color:#fff;padding:5px 14px;cursor:pointer;font:inherit}
+.wxbar button:disabled{opacity:.5;cursor:wait}
+.wx small{color:#789;font-size:.8em}
