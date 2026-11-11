@@ -55,3 +55,9 @@ h2:not(.day h2)::before{content:"🧸 "}
 .wxbar button{border:0;border-radius:999px;background:var(--accent);color:#fff;padding:5px 14px;cursor:pointer;font:inherit}
 .wxbar button:disabled{opacity:.5;cursor:wait}
 .wx small{color:#789;font-size:.8em}
+
+/* ===== 可愛吉祥物 ===== */
+.mascot{float:right;width:88px;height:auto;margin:-4px 0 0 8px}
+.day{position:relative}
+.dayicon{position:absolute;right:0;top:-26px;width:78px;height:auto;pointer-events:none}
+@media (max-width:520px){.mascot{width:68px}.dayicon{width:60px;top:-22px}}
