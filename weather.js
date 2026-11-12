@@ -3,12 +3,12 @@
   var START='2026-11-14', END='2026-11-16';
   var P={ // 景點座標(約略位置即可,預報網格約 10 km)
     'pinglin':[24.936,121.711],'nanao':[24.463,121.797],'qingshui':[24.221,121.651],
-    'qixingtan':[24.027,121.628],'yuli-noodle':[23.335,121.312],'chishang':[23.100,121.215],
+    'qixingtan':[24.027,121.628],'yuli-noodle':[23.335,121.312],'fuli-straw':[23.180,121.250],'chishang':[23.100,121.215],
     'nuannuan':[22.757,121.144],'tiehua':[22.756,121.147],'xiaoyeliu':[22.884,121.206],
     'jialulan':[22.932,121.249],'donghe-baozi':[22.968,121.298],'sanxiantai':[23.123,121.405],
     'qinbuzhizi':[23.320,121.470],'changhong':[23.400,121.500],'shitiping':[23.500,121.500],
-    'baqi':[23.620,121.520],'suao':[24.590,121.850],'luodong-night':[24.680,121.770],'feng-teppan':[24.677,121.769],
-    'luodong-forest':[24.680,121.760],'jiaoxi':[24.670,121.770],'toucheng':[24.860,121.820]
+    'baqi':[23.620,121.520],'suao':[24.590,121.850],'luodong-night':[24.680,121.770],'luodong-market':[24.677,121.769],
+    'luodong-forest':[24.680,121.760],'starbucks-luodong':[24.680,121.760],'jiaoxi':[24.670,121.770],'toucheng':[24.860,121.820]
   };
   function icon(c){
     if(c===0)return['sunny','晴'];
