@@ -8,7 +8,7 @@
     'jialulan':[22.932,121.249],'donghe-baozi':[22.968,121.298],'sanxiantai':[23.123,121.405],
     'qinbuzhizi':[23.320,121.470],'changhong':[23.400,121.500],'shitiping':[23.500,121.500],
     'baqi':[23.620,121.520],'suao':[24.590,121.850],'luodong-night':[24.680,121.770],'luodong-market':[24.677,121.769],
-    'luodong-forest':[24.680,121.760],'starbucks-luodong':[24.680,121.760],'jiaoxi':[24.670,121.770],'toucheng':[24.860,121.820]
+    'luodong-forest':[24.680,121.760],'starbucks-luodong':[24.680,121.760],'jiaoxi':[24.827,121.771],'toucheng':[24.860,121.820]
   };
   function icon(c){
     if(c===0)return['sunny','晴'];
