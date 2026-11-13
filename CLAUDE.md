@@ -11,7 +11,7 @@
 | `weather.js` | 用 Open-Meteo（免金鑰）抓各景點抵達時刻的天氣；座標在 `P` 物件，以 slug 為 key |
 | `images/<slug>.jpg` | 景點照片（Wikimedia Commons），出處記在 `images/credits.json` |
 | `images/deco/*.svg` | 插圖：吉祥物、段落圖示、天氣圖示、分隔線 |
-| `ops/sync-to-gcs.sh` | 把網站、CLAUDE.md、SKILL 備份到 Google Cloud Storage |
+| `ops/sync-to-gcs.sh` | 把 Git 儲存庫、網站、CLAUDE.md、SKILL 備份到 Google Cloud Storage |
 | `.claude/skills/update-itinerary/SKILL.md` | 修改行程的標準步驟 |
 
 ## 慣例
@@ -25,9 +25,17 @@
 ## 雲端空間（GCP 專案 `caude-project-514509`）
 | 位置 | 用途 |
 |---|---|
-| `gs://caude-project-514509-claude/projects/taitung-ride-2026/` | 網站檔案備份 |
+| `gs://caude-project-514509-claude/repos/taitung-ride-2026/taitung-ride-2026.bundle` | Git 儲存庫（所有分支與完整歷史） |
+| `gs://caude-project-514509-claude/repos/taitung-ride-2026/history/` | 每次備份的 bundle 快照 |
+| `gs://caude-project-514509-claude/projects/taitung-ride-2026/` | 網站檔案（直接可瀏覽） |
 | `gs://caude-project-514509-claude/skills/` | SKILL 檔 |
 | `gs://caude-project-514509-claude/docs/` | .md 維運文件 |
 | `gs://taitung-ride-2026-album/` | 旅途照片（day1-1114 / day2-1115 / day3-1116） |
+
+從雲端還原儲存庫：
+```bash
+gcloud storage cp gs://caude-project-514509-claude/repos/taitung-ride-2026/taitung-ride-2026.bundle .
+git clone -b main taitung-ride-2026.bundle taitung-ride-2026
+```
 
 Google 雲端硬碟另有共用相簿資料夾，連結在 `index.html` 的「旅途相簿」區塊。
