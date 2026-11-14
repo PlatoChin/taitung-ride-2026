@@ -11,8 +11,8 @@
 <text x="134.5" y="431.1" font-size="12" fill="#b59a6a" text-anchor="middle">台灣</text>
 <path d="M367.3 205.2 L365.5 204.6 L367.6 173.7 L377.0 166.8 L356.2 150.9 L333.1 120.6" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M367.3 205.2 L365.5 204.6 L367.6 173.7 L377.0 166.8 L356.2 150.9 L333.1 120.6" fill="none" stroke="#3aa65a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 6"/>
-<path d="M248.5 608.2 L259.8 581.3 L268.0 571.3 L277.3 563.7 L297.8 531.2 L310.2 489.9 L315.9 473.1 L315.9 452.1 L319.7 426.9 L336.9 351.4 L346.5 301.1 L373.2 250.7 L382.7 223.4 L367.5 204.6 L367.3 205.2" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M248.5 608.2 L259.8 581.3 L268.0 571.3 L277.3 563.7 L297.8 531.2 L310.2 489.9 L315.9 473.1 L315.9 452.1 L319.7 426.9 L336.9 351.4 L346.5 301.1 L373.2 250.7 L382.7 223.4 L367.5 204.6 L367.3 205.2" fill="none" stroke="#2f80ed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 0"/>
+<path d="M248.5 608.2 L268.2 519.2 L280.0 486.7 L306.5 479.5 L315.9 473.1 L315.9 452.1 L319.7 426.9 L336.9 351.4 L346.5 301.1 L373.2 250.7 L382.7 223.4 L367.5 204.6 L367.3 205.2" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M248.5 608.2 L268.2 519.2 L280.0 486.7 L306.5 479.5 L315.9 473.1 L315.9 452.1 L319.7 426.9 L336.9 351.4 L346.5 301.1 L373.2 250.7 L382.7 223.4 L367.5 204.6 L367.3 205.2" fill="none" stroke="#2f80ed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 0"/>
 <path d="M333.1 120.6 L356.2 150.9 L365.5 189.9 L384.6 221.3 L372.6 250.1 L344.7 300.9 L340.3 341.6 L280.0 486.7 L268.2 519.2 L261.5 536.0 L247.9 608.0 L249.1 609.0 L248.7 608.4 L248.5 608.2" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M333.1 120.6 L356.2 150.9 L365.5 189.9 L384.6 221.3 L372.6 250.1 L344.7 300.9 L340.3 341.6 L280.0 486.7 L268.2 519.2 L261.5 536.0 L247.9 608.0 L249.1 609.0 L248.7 608.4 L248.5 608.2" fill="none" stroke="#e8553d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 0"/>
 <circle cx="356.2" cy="150.9" r="3.4" fill="#fff" stroke="#e8553d" stroke-width="2"/>
@@ -27,11 +27,8 @@
 <circle cx="247.9" cy="608.0" r="3.4" fill="#fff" stroke="#e8553d" stroke-width="2"/>
 <circle cx="249.1" cy="609.0" r="3.4" fill="#fff" stroke="#e8553d" stroke-width="2"/>
 <circle cx="248.7" cy="608.4" r="3.4" fill="#fff" stroke="#e8553d" stroke-width="2"/>
-<circle cx="259.8" cy="581.3" r="3.4" fill="#fff" stroke="#2f80ed" stroke-width="2"/>
-<circle cx="268.0" cy="571.3" r="3.4" fill="#fff" stroke="#2f80ed" stroke-width="2"/>
-<circle cx="277.3" cy="563.7" r="3.4" fill="#fff" stroke="#2f80ed" stroke-width="2"/>
-<circle cx="297.8" cy="531.2" r="3.4" fill="#fff" stroke="#2f80ed" stroke-width="2"/>
-<circle cx="310.2" cy="489.9" r="3.4" fill="#fff" stroke="#2f80ed" stroke-width="2"/>
+<circle cx="268.2" cy="519.2" r="3.4" fill="#fff" stroke="#2f80ed" stroke-width="2"/>
+<circle cx="306.5" cy="479.5" r="3.4" fill="#fff" stroke="#2f80ed" stroke-width="2"/>
 <circle cx="315.9" cy="473.1" r="3.4" fill="#fff" stroke="#2f80ed" stroke-width="2"/>
 <circle cx="315.9" cy="452.1" r="3.4" fill="#fff" stroke="#2f80ed" stroke-width="2"/>
 <circle cx="319.7" cy="426.9" r="3.4" fill="#fff" stroke="#2f80ed" stroke-width="2"/>
@@ -54,7 +51,7 @@
 <text x="272.0" y="490.7" font-size="12.5" font-weight="700" fill="#3a3f47" text-anchor="end" stroke="#fff" stroke-width="3.5" paint-order="stroke">玉里</text>
 <text x="253.5" y="540.0" font-size="12.5" font-weight="700" fill="#3a3f47" text-anchor="end" stroke="#fff" stroke-width="3.5" paint-order="stroke">池上</text>
 <text x="240.5" y="614.2" font-size="12.5" font-weight="700" fill="#3a3f47" text-anchor="end" stroke="#fff" stroke-width="3.5" paint-order="stroke">台東</text>
-<text x="305.8" y="535.2" font-size="12.5" font-weight="700" fill="#3a3f47" text-anchor="start" stroke="#fff" stroke-width="3.5" paint-order="stroke">三仙台</text>
+<text x="260.2" y="523.2" font-size="12.5" font-weight="700" fill="#3a3f47" text-anchor="end" stroke="#fff" stroke-width="3.5" paint-order="stroke">富里</text>
 <text x="323.9" y="456.1" font-size="12.5" font-weight="700" fill="#3a3f47" text-anchor="start" stroke="#fff" stroke-width="3.5" paint-order="stroke">石梯坪</text>
 <text x="390.7" y="229.4" font-size="12.5" font-weight="700" fill="#3a3f47" text-anchor="start" stroke="#fff" stroke-width="3.5" paint-order="stroke">蘇澳</text>
 <text x="385.0" y="164.8" font-size="12.5" font-weight="700" fill="#3a3f47" text-anchor="start" stroke="#fff" stroke-width="3.5" paint-order="stroke">礁溪・頭城</text>
@@ -63,7 +60,7 @@
 <path d="M24 816 h26" stroke="#e8553d" stroke-width="4" stroke-linecap="round"/>
 <text x="58" y="820" font-size="12.5" fill="#3a3f47">Day 1 11/14 內湖 → 台東 約 370 km</text>
 <path d="M24 833 h26" stroke="#2f80ed" stroke-width="4" stroke-linecap="round"/>
-<text x="58" y="837" font-size="12.5" fill="#3a3f47">Day 2 11/15 台東 → 羅東 約 330 km</text>
+<text x="58" y="837" font-size="12.5" fill="#3a3f47">Day 2 11/15 台東 → 富里 → 羅東 約 350 km</text>
 <path d="M24 850 h26" stroke="#3aa65a" stroke-width="4" stroke-linecap="round" stroke-dasharray="9 6"/>
 <text x="58" y="854" font-size="12.5" fill="#3a3f47">Day 3 11/16 羅東 → 內湖 約 90 km</text>
 <text x="24" y="878" font-size="10.5" fill="#8a9aa5">示意圖・路線為景點連線,實際請依導航</text>
